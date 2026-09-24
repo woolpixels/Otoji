@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+
+# Build output
+app/dist
+app/dist-ssr
+app/release
+app/build/icon.iconset
+app/public/__fixtures
+
+# Logs and local files
+*.log
+npm-debug.log*
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea

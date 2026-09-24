@@ -1,0 +1,14 @@
+{
+  "name": "otoji-root",
+  "private": true,
+  "description": "转发到 app/ 的常用命令，方便在项目根目录直接执行",
+  "scripts": {
+    "dev": "npm --prefix app run dev",
+    "build": "npm --prefix app run build",
+    "lint": "npm --prefix app run lint",
+    "test": "npm --prefix app run test",
+    "desktop": "npm --prefix app run desktop",
+    "dist": "npm --prefix app run dist",
+    "icon": "npm --prefix app run icon"
+  }
+}
