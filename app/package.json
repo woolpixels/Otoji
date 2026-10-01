@@ -4,7 +4,12 @@
   "private": true,
   "version": "0.2.1",
   "description": "本地音频处理：从视频里取出声音，把几段声音接起来",
-  "author": "liubuhui",
+  "author": "woolpixels",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woolpixels/Otoji.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -36,7 +41,7 @@
   },
   "main": "electron/main.cjs",
   "build": {
-    "appId": "local.liubuhui.otoji",
+    "appId": "io.github.woolpixels.otoji",
     "productName": "Otoji",
     "electronDist": "node_modules/electron/dist",
     "directories": {
